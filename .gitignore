@@ -1,0 +1,10 @@
+.dart_tool/
+build/
+.idea/
+*.iml
+local.properties
+.env
+*.apk
+key.properties
+*.jks
+.vscode/launch.json

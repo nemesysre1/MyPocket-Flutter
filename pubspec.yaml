@@ -1,0 +1,23 @@
+name: mypocket
+description: MyPocket, manajemen keuangan pribadi dengan asisten AI.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.2.3
+  http: ^1.2.1
+  intl: ^0.19.0
+  table_calendar: ^3.1.2
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  geolocator: ^12.0.0
+  flutter_local_notifications: ^17.2.4
+dependency_overrides:
+  geolocator_android: 4.6.1
+flutter:
+  uses-material-design: true
